@@ -17,7 +17,7 @@ const isString = (value) => {
 };
 
 /**
- * isString - Determine if the value is a boolean.
+ * isBoolean - Determine if the value is a boolean.
  *
  * @param {unknown} value - Some JavaScript value.
  */
