@@ -17,6 +17,15 @@ const isString = (value) => {
 };
 
 /**
+ * isBoolean - Determine if the value is a boolean.
+ *
+ * @param {unknown} value - Some JavaScript value.
+ */
+const isBoolean = (value) => {
+  return typeof value === "boolean";
+};
+
+/**
  * makeFlatContract - Return the contract that corresponds to the provided
  * primitive or predicate value.
  *
@@ -26,4 +35,4 @@ const isString = (value) => {
  * TODO: Implement this function.
  */
 
-module.exports = { isNumber, isString };
+module.exports = { isNumber, isString, isBoolean };

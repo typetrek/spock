@@ -44,3 +44,4 @@ interface FunctionContract {
 export type Contract = FlatContract | FunctionContract;
 export const isNumber: Predicate;
 export const isString: Predicate;
+export const isBoolean: Predicate;
