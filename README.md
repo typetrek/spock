@@ -1,3 +1,3 @@
 # Spock
 
-A system for generating tests from types.
+A system for generating programmer friendly tests from types.
