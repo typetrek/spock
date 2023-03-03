@@ -1,4 +1,10 @@
 /**
+ * A ContractError indicates a problem with some code discovered dynamically at
+ * runtime.
+ */
+export class ContractError extends TypeError {}
+
+/**
  * JavaScript primitive values.
  * See https://developer.mozilla.org/en-US/docs/Glossary/Primitive
  */
@@ -45,3 +51,5 @@ export type Contract = FlatContract | FunctionContract;
 export const isNumber: Predicate;
 export const isString: Predicate;
 export const isBoolean: Predicate;
+export const isSymbol: Predicate;
+export const makeFlatContract: (value: Predicate | Primitive) => FlatContract;
